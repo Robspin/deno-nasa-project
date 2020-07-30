@@ -5,7 +5,7 @@
  * 3. Built-in test fixtures with Deno.test().
  */
 
-import { assertEquals } from 'https://deno.land/std@0.58.0/testing/asserts.ts';
+import { assertEquals } from '../test_deps.ts';
 
 import { filterHabitablePlanets } from './planets.ts';
 
